@@ -6,7 +6,8 @@
  * Version: 4.3.0
  **/
 
-function loadResources() {
+function loadResources()
+{
 
     /* SCRIPTS */
     wp_enqueue_script('analytics_script', 'https://www.googletagmanager.com/gtag/js?id=G-XSSQFX7YB1');
@@ -18,20 +19,21 @@ function loadResources() {
     //wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js');
 
     /* CUSTOM SCRIPT */
-    wp_enqueue_script('forms_script', plugins_url('/scripts/form.js', __FILE__), array( 'jquery' ), '4.3.0', true);
-    $translation_array = array( 'templateUrl' =>  plugin_dir_url(__FILE__) ); //after wp_enqueue_script
-    wp_localize_script( 'forms_script', 'jsVars', $translation_array );
+    wp_enqueue_script('forms_script', plugins_url('/scripts/form.js', __FILE__), array('jquery'), '4.3.0', true);
+    $translation_array = array('templateUrl' => plugin_dir_url(__FILE__)); //after wp_enqueue_script
+    wp_localize_script('forms_script', 'jsVars', $translation_array);
 
     /* STYLES */
     wp_enqueue_style('form_style', plugins_url('/styles/style.css', __FILE__), false, '4.3.0', 'all');
-    wp_enqueue_style( 'bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' );
-    
+    wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+
 }
 add_action('wp_enqueue_scripts', 'loadResources');
 
 
-function footerScripts() {
-   echo "<script type='text/javascript'>
+function footerScripts()
+{
+    echo "<script type='text/javascript'>
     /* function salvarResultados() {
         //modal = jQuery('#resultsModal')[0];
 
@@ -58,29 +60,36 @@ function footerScripts() {
 add_action('wp_footer', 'footerScripts', 200);
 
 
-function generate_form($atts = []) {
+function generate_form($atts = [])
+{
     $atts = shortcode_atts(
         array(
             'id' => 1,
-    ), $atts, 'form_generate');
+        ),
+        $atts,
+        'form_generate'
+    );
     $id = $atts['id'];
-    $q = file_get_contents(plugins_url('/templates/questions/'.$id.'.html',__FILE__ ));
-    $loadingModal = file_get_contents(plugins_url('/templates/modals/loading.html',__FILE__ ));
+    $q = file_get_contents(plugins_url('/templates/questions/' . $id . '.html', __FILE__));
+    $loadingModal = file_get_contents(plugins_url('/templates/modals/loading.html', __FILE__));
     $content = '
 <div class="container-fluid">
     <span id="req">*Obrigatório</span>
-    <input type="hidden" id="formName" name="formName" value="'.$id.'" />
+    <input type="hidden" id="formName" name="formName" value="' . $id . '" />
     <form id="customForm" method="POST">
 
         <div class="container-fluid">
-            <div id="perguntas">'.$q.'</div>
+            <div id="perguntas">' . $q . '</div>
         </div>
 
         <div id="result"> </div>
 
-        <input id="submitButton" type="submit" value="Enviar" />
+        <div id="buttonContainer">
+            <input id="submitButton" type="submit" value="Enviar" />
+        </div>
+
         <div id="modals">
-        ' .$loadingModal. '
+        ' . $loadingModal . '
         </div>
     </form>
 </div>';
