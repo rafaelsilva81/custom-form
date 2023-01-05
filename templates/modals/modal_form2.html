@@ -1,0 +1,42 @@
+<div class="modal fade p-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" id="resultsModal">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header mt-3 mx-4 p-2">
+          <h4 class="modal-title">SEUS RESULTADOS - DEO - FRED PINHO</h4>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body" id="resultsBody">
+
+          <div class="card p-2">
+            <!-- MODELO DE NEGÓCIO -->
+            <div class="row g-0">
+              <div class="col-md-11">
+                <div class="card-body">
+                  <h4 class="card-title"> Resultado do seu formulário : </h4>
+                  <p class="card-text text-black" id="media-negocio-mensagem">
+                    {{mensagem}}
+                    <!-- Mensagem vai aqui -->
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-1">
+                <div class="card text-black bg-warning h-100">
+                  <div class="card-body d-flex align-items-center justify-content-center">
+                    <h3 class="card-title text-center" id="media-negocio-valor">
+                      {{media}}/10
+                      <!-- Media/10 -->
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-warning px-3 saveResults" id="largeButton"> <i class="fas fa-file-download"></i> Salvar Resultado </button>
+         <!--  <button type="button" class="btn btn-danger" id="largeButton" data-bs-dismiss="modal">Fechar</button>  -->
+        </div>
+      </div>
+    </div>
+  </div>

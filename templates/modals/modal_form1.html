@@ -1,0 +1,109 @@
+<div class="modal fade p-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" id="resultsModal">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header mt-3 mx-4 p-2">
+        <h4 class="modal-title">SEUS RESULTADOS - DEO - FRED PINHO</h4>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body" id="resultsBody">
+        <div class="card p-2">
+          <!-- MODELO DE NEGÓCIO -->
+          <div class="row g-0">
+            <div class="col-md-11">
+              <div class="card-body">
+                <h4 class="card-title"> Maturidade quanto ao <b id="accentText">Modelo de Negócio</b> (Competitividade)
+                  na sua empresa : </h4>
+                <p class="card-text text-black" id="media-negocio-mensagem">
+                  {{mensagem-negocio}}
+                  <!-- Mensagem vai aqui -->
+                </p>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="card text-black bg-warning h-100">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <h3 class="card-title text-center" id="media-negocio-valor">
+                    {{media-negocio}}/10
+                    <!-- Media/10 -->
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card p-2">
+          <!-- MODELO DE GESTÃO -->
+          <div class="row g-0">
+            <div class="col-md-11">
+              <div class="card-body">
+                <h4 class="card-title"> Maturidade quanto ao <b id="accentText">Modelo de Gestão</b> (Controles) : </h4>
+                <p class="card-text text-black" id="media-gestao-mensagem">
+                  {{mensagem-gestao}}
+                  <!-- Mensagem vai aqui -->
+                </p>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="card text-black bg-warning h-100">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <h3 class="card-title text-center" id="media-gestao-valor">
+                    <!-- Media/10 -->
+                    {{media-gestao}}/10
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card p-2">
+          <!-- MODELO DE LIDERANÇA -->
+          <div class="row g-0">
+            <div class="col-md-11">
+              <div class="card-body">
+                <h4 class="card-title"> Maturidade quanto ao <b id="accentText">Modelo de Liderança</b> na sua empresa :
+                </h4>
+                <p class="card-text text-black" id="media-lideranca-mensagem">
+                  {{mensagem-lideranca}}
+                  <!-- Mensagem vai aqui -->
+                </p>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <div class="card text-black bg-warning h-100">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                  <h3 class="card-title text-center" id="media-lideranca-valor">
+                    <!-- Media/10 -->
+                    {{media-lideranca}}/10
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3 text-black">
+          <span class="my-1">
+            <span class="text break text-justify">OK! Espero que esse Diagnóstico traga impactos positivos pra você e que você possa tomar
+            novas decisões com base no que está aqui formulado. Lembre-se sempre que somente com atitudes diferentes nós
+            podemos conquistar resultados diferentes e cada vez melhores. É isso é o que eu desejo pra você!
+            </span> <br> <br>
+            <span class="text break text-justify" style="font-size: 130%;">
+              <b> Conheça a <b id="accentText"> Mentoria Lucrativamente PRIME </b> 
+              e aprenda o Método de Gestão Empresarial validado por mais de <b>100</b>
+              empresas cearenses para organizar e crescer sua empresa de forma <b>lucrativa</b> 
+              e <b> escalável</b> </b> :
+            </span> <br>
+            
+            <a href='https://rcastrodigital.pages.pro.br/mentoria-lucrativamente-2022-t2' rel="noopener noreferrer" style="background-color: #e65c00 !important; color: white !important" target="_blank" class="btn" id="largerButton"> SAIBA MAIS </a>
+          </span>
+        </div>
+      </div>
+      <div class="modal-footer">
+         <button type="button" class="btn btn-warning px-3 saveResults" id="largeButton"> <i class="fas fa-file-download"></i> Salvar Resultado </button>
+       <!--  <button type="button" class="btn btn-danger" id="largeButton" data-bs-dismiss="modal">Fechar</button>  -->
+      </div>
+    </div>
+  </div>
+</div>

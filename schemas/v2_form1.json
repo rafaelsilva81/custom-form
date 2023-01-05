@@ -1,0 +1,39 @@
+{
+    "fields": [{
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "empresa",
+        "type": "string"
+      },
+      {
+        "name": "media_gestao",
+        "type": "number"
+      },
+      {
+        "name": "media_negocios",
+        "type": "number"
+      },
+      {
+        "name": "media_lideranca",
+        "type": "number"
+      },
+      {
+        "name": "nome",
+        "type": "string"
+      },
+      {
+        "name": "perguntas",
+        "type": "string"
+      },
+      {
+        "name": "qtd_funcionarios",
+        "type": "string"
+      },
+      {
+        "name": "tipo_de_profissional",
+        "type": "string"
+      }
+    ]
+  }

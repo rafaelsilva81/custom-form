@@ -1,0 +1,13 @@
+Trocar tipo de profissional
+Empreendedor -> Empresário (V)
+Profissional Liberal -> Profissional Liberal Empreendedor (V)
+
+
+Tentar deixar os dois selects com duas opções vazias
+
+Popup
+Trocar
+SEUS RESULTADOS -> 
+SEUS RESULTADOS - DEO - FRED PINHO
+
+Tentar arrumar o Salvar Resultado

@@ -1,0 +1,74 @@
+<div class="container-fluid">
+
+    <span id="req">*Obrigatório</span>
+    <input type="hidden" id="formName" name="formName" value="'.$id.'" />
+    <form action="'.get_the_permalink().'" id="customForm" method="POST">
+
+        <div class="row">
+            <div class="col">
+                <div class="formGroup contactDataGroup">
+                    <label for="nomeContato"> Nome Completo : <span id="req">*</span> </label>
+                    <input type="text" name="nomeContato" id="nomeContato" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="formGroup contactDataGroup">
+                    <label for="emailContato"> Seu Melhor E-mail : <span id="req">*</span> </label>
+                    <input type="email" name="emailContato" id="emailContato" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="formGroup contactDataGroup">
+                    <label for="nomeEmpresa"> Nome da Sua Empresa : <span id="req">*</span> </label>
+                    <input type="text" name="nomeEmpresa" id="nomeEmpresa" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="formGroup contactDataGroup">
+                    <label for="tipoProfissional"> Tipo de Profissional : <span id="req">*</span> </label>
+                    <select name="tipoProfissional" id="tipoProfissional">
+                        <option selected value="empreendedor">Empreendedor</option>
+                        <option value="profissional_liberal">Profissional Liberal</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="formGroup contactDataGroup">
+                    <label for="quantidadeFunc"> Quantidade de Funcionários : </label>
+                    <select name="quantidadeFunc" id="quantidadeFunc">
+                        <option selected value="0">Trabalho sozinho</option>
+                        <option value="1-10">1 a 10</option>
+                        <option value="11-50">11 a 50</option>
+                        <option value="51-100">51 a 100</option>
+                        <option value="101-200">101 a 200</option>
+                        <option value="200+">200 ou mais</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container-fluid">
+            <div id="perguntas">'.$q.'</div>
+        </div>
+
+        <div id="result"> </div>
+
+        <input id="submitButton" type="submit" value="Enviar" />
+
+    </form>
+</div>

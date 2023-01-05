@@ -1,0 +1,118 @@
+/* #e9bd35 */
+
+/* FORM STYLE */
+#customForm {
+    padding : 15px !important;
+    font-size: 16px !important;
+}
+
+.formGroup {
+    overflow: hidden !important;
+    margin-bottom : 1.1em !important;
+}
+
+#accentText {
+    color : #dbae27
+}
+
+input[type="radio"] {
+	accent-color: #e9bd35;
+}
+
+option {
+    background-color: black !important;
+}
+
+input, select{
+    color: #f2f2f2 !important;
+}
+
+input:focus, select:focus {
+    color: #f2f2f2 !important;
+    outline: 1px solid #e9bd35 !important;
+    border: 1px solid #e9bd35 !important;
+}
+input::-moz-selection {
+    outline: 1px solid #e9bd35 !important;
+    border: 1px solid #e9bd35 !important;
+}
+
+#req {
+    display:inline !important;
+    float:none !important;
+    color: #EF5F5F !important;
+    font-size: 80% !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.formGroup {
+    overflow: hidden !important;
+    margin-bottom : 1.1em !important;
+}
+/* FORM STYLE */
+
+
+/* LIKERT STYLE */
+.likert li {
+    float: left !important;
+    list-style-type: none !important;
+    margin : 0 0.5rem !important;
+}
+
+#likert-values {
+    display : flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+
+#likert-values li {
+    display : flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+/* LIKERT STYLE */
+
+/* BUTTON STYLE */
+#submitButton {
+  border-radius: 8px !important;
+  border-style: none !important;
+  box-sizing: border-box !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  flex-shrink: 0 !important;
+  height: 5rem !important;
+  font-size: 110% !important;
+  padding: 0 1.8rem !important;
+  text-align: center !important;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px !important; 
+  transition: all .5s !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  
+} */
+
+#submitButton :hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px !important;
+  transition-duration: .1s !important;
+} 
+
+@media (min-width: 768px) {
+  #submitButton  {
+    padding: 0 2.6rem !important;
+  }
+}
+
+#largeButton {
+    font-size: 115% !important;
+}
+
+#largerButton {
+    font-size: 130% !important;
+}
+
+.btn-orange {
+    background-color: #e65c00 !important;
+}
+/* BUTTON STYLE */

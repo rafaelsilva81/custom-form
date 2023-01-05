@@ -1,0 +1,23 @@
+{
+    "fields": [{
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "empresa",
+        "type": "string"
+      },
+      {
+        "name": "media",
+        "type": "number"
+      },
+      {
+        "name": "nome",
+        "type": "string"
+      },
+      {
+        "name": "perguntas",
+        "type": "string"
+      }
+    ]
+  }
