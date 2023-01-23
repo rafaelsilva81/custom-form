@@ -1,16 +1,17 @@
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
-
-    <div class="row">
-        <div class="col">
-            <div class="formGroup contactDataGroup">
-                <label for="nomeContato"> Nome Completo : <span id="req">*</span> </label>
-                <input type="text" name="nomeContato" id="nomeContato" required>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col">
+      <div class="formGroup contactDataGroup">
+        <label for="nomeContato">
+          Nome Completo : <span id="req">*</span>
+        </label>
+        <input type="text" name="nomeContato" id="nomeContato" required />
+      </div>
     </div>
+  </div>
 
-    <!--     <div class="row">
+  <!--     <div class="row">
         <div class="col">
             <div class="formGroup contactDataGroup">
                 <label for="emailContato"> Whatsapp : <span id="req">*</span> </label>
@@ -19,488 +20,523 @@
         </div>
     </div> -->
 
+  <br />
 
-    <br> 
-    
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q1">
-            1. COMO VOCÊ AVALIA A SUA ATITUDE QUANTO A VENDAS. <span id="req">*</span>
-        </label>
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q1">
+      1. <b id="accentText">COMO VOCÊ AVALIA A SUA ATITUDE QUANTO A VENDAS.</b>
+      <span id="req">*</span>
+    </label>
+  </div>
+
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Se você se sente completamente desconfortável se eventualmente tenha
+        que vender e caso esse desconforto se estenda a tarefa de cobrar o
+        desempenho dos seus vendedores.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Se você se sente completamente desconfortável se eventualmente tenha que vender e caso esse desconforto se estenda a tarefa de cobrar o desempenho dos seus vendedores.</p>
+    <div class="col-sm-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q1" value="1" required /></li>
+          <li>2<input type="radio" name="q1" value="2" /></li>
+          <li>3<input type="radio" name="q1" value="3" /></li>
+          <li>4<input type="radio" name="q1" value="4" /></li>
+          <li>5<input type="radio" name="q1" value="5" /></li>
+          <li>6<input type="radio" name="q1" value="6" /></li>
+          <li>7<input type="radio" name="q1" value="7" /></li>
+          <li>8<input type="radio" name="q1" value="8" /></li>
+          <li>9<input type="radio" name="q1" value="9" /></li>
+          <li>10<input type="radio" name="q1" value="10" /></li>
         </div>
-
-        <div class="col-sm-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q1" value="1" required /></li>
-                    <li>2<input type="radio" name="q1" value="2" /></li>
-                    <li>3<input type="radio" name="q1" value="3" /></li>
-                    <li>4<input type="radio" name="q1" value="4" /></li>
-                    <li>5<input type="radio" name="q1" value="5" /></li>
-                    <li>6<input type="radio" name="q1" value="6" /></li>
-                    <li>7<input type="radio" name="q1" value="7" /></li>
-                    <li>8<input type="radio" name="q1" value="8" /></li>
-                    <li>9<input type="radio" name="q1" value="9" /></li>
-                    <li>10<input type="radio" name="q1" value="10" /></li>
-                </div>
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - Caso pra você vender seja algo natural, que você faria sem problemas caso necessário e assim você tem total desenvoltura para cobrar os seus vendedores. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Caso pra você vender seja algo natural, que você faria sem
+        problemas caso necessário e assim você tem total desenvoltura para
+        cobrar os seus vendedores.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q2">
+      2. <b id="accentText">QUANTO AO PLANEJAMENTO DE VENDAS DA SUA EMPRESA.</b>
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q2">
-            2.  QUANTO AO PLANEJAMENTO DE VENDAS DA SUA EMPRESA. <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Caso não exista um planejamento pré-estabelecido e como consequência
+        disso a sua empresa não tem sequer metas de vendas todos os meses.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Caso não exista um planejamento pré-estabelecido e como consequência disso a sua empresa não tem sequer metas de vendas todos os meses. </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q2" value="1" required /></li>
+          <li>2<input type="radio" name="q2" value="2" /></li>
+          <li>3<input type="radio" name="q2" value="3" /></li>
+          <li>4<input type="radio" name="q2" value="4" /></li>
+          <li>5<input type="radio" name="q2" value="5" /></li>
+          <li>6<input type="radio" name="q2" value="6" /></li>
+          <li>7<input type="radio" name="q2" value="7" /></li>
+          <li>8<input type="radio" name="q2" value="8" /></li>
+          <li>9<input type="radio" name="q2" value="9" /></li>
+          <li>10<input type="radio" name="q2" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q2" value="1" required /></li>
-                    <li>2<input type="radio" name="q2" value="2" /></li>
-                    <li>3<input type="radio" name="q2" value="3" /></li>
-                    <li>4<input type="radio" name="q2" value="4" /></li>
-                    <li>5<input type="radio" name="q2" value="5" /></li>
-                    <li>6<input type="radio" name="q2" value="6" /></li>
-                    <li>7<input type="radio" name="q2" value="7" /></li>
-                    <li>8<input type="radio" name="q2" value="8" /></li>
-                    <li>9<input type="radio" name="q2" value="9" /></li>
-                    <li>10<input type="radio" name="q2" value="10" /></li>
-                </div>
-            </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - 
-                Se a sua empresa tem um planejamento de vendas que considera a sazonalidade do seu mercado e que tem metas estabelecidas a cada mês. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Se a sua empresa tem um planejamento de vendas que considera a
+        sazonalidade do seu mercado e que tem metas estabelecidas a cada mês.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q3">
+      3. <b id="accentText">QUANTO AO NÍVEL DE SATISFAÇÃO DOS SEUS CLIENTES.</b>
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q3">
-            3. QUANTO AO NÍVEL DE SATISFAÇÃO DOS SEUS CLIENTES. <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Caso você não tenha nenhum controle, ou seja, nenhuma pesquisa a
+        respeito ou caso você faça pesquisas de satisfação e os resultados sejam
+        sempre muito insatisfatórios.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Caso você não tenha nenhum controle, ou seja, nenhuma pesquisa a respeito ou caso você faça pesquisas de satisfação e os resultados sejam sempre muito insatisfatórios.</p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q3" value="1" required /></li>
+          <li>2<input type="radio" name="q3" value="2" /></li>
+          <li>3<input type="radio" name="q3" value="3" /></li>
+          <li>4<input type="radio" name="q3" value="4" /></li>
+          <li>5<input type="radio" name="q3" value="5" /></li>
+          <li>6<input type="radio" name="q3" value="6" /></li>
+          <li>7<input type="radio" name="q3" value="7" /></li>
+          <li>8<input type="radio" name="q3" value="8" /></li>
+          <li>9<input type="radio" name="q3" value="9" /></li>
+          <li>10<input type="radio" name="q3" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q3" value="1" required /></li>
-                    <li>2<input type="radio" name="q3" value="2" /></li>
-                    <li>3<input type="radio" name="q3" value="3" /></li>
-                    <li>4<input type="radio" name="q3" value="4" /></li>
-                    <li>5<input type="radio" name="q3" value="5" /></li>
-                    <li>6<input type="radio" name="q3" value="6" /></li>
-                    <li>7<input type="radio" name="q3" value="7" /></li>
-                    <li>8<input type="radio" name="q3" value="8" /></li>
-                    <li>9<input type="radio" name="q3" value="9" /></li>
-                    <li>10<input type="radio" name="q3" value="10" /></li>
-                </div>
-            </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - Se a sua empresa fecha uma pesquisa de satisfação a cada mês, os resultados são sempre positivos e o seus clientes chegam a espontaneamente indicar a sua empresa. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Se a sua empresa fecha uma pesquisa de satisfação a cada mês, os
+        resultados são sempre positivos e o seus clientes chegam a
+        espontaneamente indicar a sua empresa.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q4">
+      4. <b id="accentText">QUANTO AO SEUS RESULTADOS EM VENDAS</b>
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q4">
-            4. QUANTO AO SEUS RESULTADOS EM VENDAS 
-            <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Caso os seus resultados sejam sempre insatisfatórios, sua metas
+        raramente sejam batidas e isso esteja comprometendo o seu fluxo de caixa
+        e investimentos.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Caso os seus resultados sejam sempre insatisfatórios, sua metas raramente sejam batidas e isso esteja comprometendo o seu fluxo de caixa e investimentos. </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q4" value="1" required /></li>
+          <li>2<input type="radio" name="q4" value="2" /></li>
+          <li>3<input type="radio" name="q4" value="3" /></li>
+          <li>4<input type="radio" name="q4" value="4" /></li>
+          <li>5<input type="radio" name="q4" value="5" /></li>
+          <li>6<input type="radio" name="q4" value="6" /></li>
+          <li>7<input type="radio" name="q4" value="7" /></li>
+          <li>8<input type="radio" name="q4" value="8" /></li>
+          <li>9<input type="radio" name="q4" value="9" /></li>
+          <li>10<input type="radio" name="q4" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                  <li>1<input type="radio" name="q4" value="1" required /></li>
-                  <li>2<input type="radio" name="q4" value="2" /></li>
-                  <li>3<input type="radio" name="q4" value="3" /></li>
-                  <li>4<input type="radio" name="q4" value="4" /></li>
-                  <li>5<input type="radio" name="q4" value="5" /></li>
-                  <li>6<input type="radio" name="q4" value="6" /></li>
-                  <li>7<input type="radio" name="q4" value="7" /></li>
-                  <li>8<input type="radio" name="q4" value="8" /></li>
-                  <li>9<input type="radio" name="q4" value="9" /></li>
-                  <li>10<input type="radio" name="q4" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - 
-                Se a sua empresa tem vendas sempre crescentes, que garantem todos o pagamento de todos os compromissos com os fornecedores, viabilizando assim investimentos e crescimento constantes. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Se a sua empresa tem vendas sempre crescentes, que garantem todos o
+        pagamento de todos os compromissos com os fornecedores, viabilizando
+        assim investimentos e crescimento constantes.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q5">
+      5.<b id="accentText">QUANTO A POLÍTICA DE TREINAMENTO DE VENDEDORES.</b>
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q5">
-            5.QUANTO A POLÍTICA DE TREINAMENTO DE VENDEDORES.
-            <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Se a sua empresa não tem nada em termos de treinamento e você sente
+        total desconforto em você mesmo treinar.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Se a sua empresa não tem nada em termos de treinamento e você sente total desconforto em você mesmo treinar. </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q5" value="1" required /></li>
+          <li>2<input type="radio" name="q5" value="2" /></li>
+          <li>3<input type="radio" name="q5" value="3" /></li>
+          <li>4<input type="radio" name="q5" value="4" /></li>
+          <li>5<input type="radio" name="q5" value="5" /></li>
+          <li>6<input type="radio" name="q5" value="6" /></li>
+          <li>7<input type="radio" name="q5" value="7" /></li>
+          <li>8<input type="radio" name="q5" value="8" /></li>
+          <li>9<input type="radio" name="q5" value="9" /></li>
+          <li>10<input type="radio" name="q5" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                  <li>1<input type="radio" name="q5" value="1" required /></li>
-                  <li>2<input type="radio" name="q5" value="2" /></li>
-                  <li>3<input type="radio" name="q5" value="3" /></li>
-                  <li>4<input type="radio" name="q5" value="4" /></li>
-                  <li>5<input type="radio" name="q5" value="5" /></li>
-                  <li>6<input type="radio" name="q5" value="6" /></li>
-                  <li>7<input type="radio" name="q5" value="7" /></li>
-                  <li>8<input type="radio" name="q5" value="8" /></li>
-                  <li>9<input type="radio" name="q5" value="9" /></li>
-                  <li>10<input type="radio" name="q5" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - Caso a sua empresa tenha uma política que implementa treinamentos periódicos e você inclusive participa ativamente desses treinamentos.</p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Caso a sua empresa tenha uma política que implementa treinamentos
+        periódicos e você inclusive participa ativamente desses treinamentos.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q6">
+      6. <b id="accentText">QUANTO A SUA ESTRUTURA DE PROPAGANDA</b>
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q6">
-            6. QUANTO A SUA ESTRUTURA DE PROPAGANDA <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Caso você não realize campanhas de propaganda em nenhum tipo de
+        canal, seja online ou offline.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Caso você não realize campanhas de propaganda em nenhum tipo de canal, seja online ou offline. </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q6" value="1" required /></li>
+          <li>2<input type="radio" name="q6" value="2" /></li>
+          <li>3<input type="radio" name="q6" value="3" /></li>
+          <li>4<input type="radio" name="q6" value="4" /></li>
+          <li>5<input type="radio" name="q6" value="5" /></li>
+          <li>6<input type="radio" name="q6" value="6" /></li>
+          <li>7<input type="radio" name="q6" value="7" /></li>
+          <li>8<input type="radio" name="q6" value="8" /></li>
+          <li>9<input type="radio" name="q6" value="9" /></li>
+          <li>10<input type="radio" name="q6" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q6" value="1" required /></li>
-                    <li>2<input type="radio" name="q6" value="2" /></li>
-                    <li>3<input type="radio" name="q6" value="3" /></li>
-                    <li>4<input type="radio" name="q6" value="4" /></li>
-                    <li>5<input type="radio" name="q6" value="5" /></li>
-                    <li>6<input type="radio" name="q6" value="6" /></li>
-                    <li>7<input type="radio" name="q6" value="7" /></li>
-                    <li>8<input type="radio" name="q6" value="8" /></li>
-                    <li>9<input type="radio" name="q6" value="9" /></li>
-                    <li>10<input type="radio" name="q6" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - 
-Se a sua empresa tem um planejamento de mídia e realiza pelo menos 4 campanhas de propaganda por ano e sempre se valendo simultaneamente dos canais online e offline. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Se a sua empresa tem um planejamento de mídia e realiza pelo menos
+        4 campanhas de propaganda por ano e sempre se valendo simultaneamente
+        dos canais online e offline.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q7">
+      7.
+      <b id="accentText"
+        >QUANTO A SUA ESTRUTURA DE MARKETING DIGITAL <span id="req">*</span></b
+      >
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q7">
-            7. QUANTO A SUA ESTRUTURA DE MARKETING DIGITAL <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Se a sua empresa não tem nenhuma iniciativa nessa área ou tenha
+        apenas um site desatualizado a muito tempo e um insta com pouquíssimas
+        postagens e sem nenhuma oferta direta.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - Se a sua empresa não tem nenhuma iniciativa nessa área ou tenha apenas um site desatualizado a muito tempo e um insta com pouquíssimas postagens e sem nenhuma oferta direta.
-            </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q7" value="1" required /></li>
+          <li>2<input type="radio" name="q7" value="2" /></li>
+          <li>3<input type="radio" name="q7" value="3" /></li>
+          <li>4<input type="radio" name="q7" value="4" /></li>
+          <li>5<input type="radio" name="q7" value="5" /></li>
+          <li>6<input type="radio" name="q7" value="6" /></li>
+          <li>7<input type="radio" name="q7" value="7" /></li>
+          <li>8<input type="radio" name="q7" value="8" /></li>
+          <li>9<input type="radio" name="q7" value="9" /></li>
+          <li>10<input type="radio" name="q7" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q7" value="1" required /></li>
-                    <li>2<input type="radio" name="q7" value="2" /></li>
-                    <li>3<input type="radio" name="q7" value="3" /></li>
-                    <li>4<input type="radio" name="q7" value="4" /></li>
-                    <li>5<input type="radio" name="q7" value="5" /></li>
-                    <li>6<input type="radio" name="q7" value="6" /></li>
-                    <li>7<input type="radio" name="q7" value="7" /></li>
-                    <li>8<input type="radio" name="q7" value="8" /></li>
-                    <li>9<input type="radio" name="q7" value="9" /></li>
-                    <li>10<input type="radio" name="q7" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - 
-Caso a sua empresa tenha um marketing digital todo estruturado, com tráfego planejado e campanhas permanentes em diversos canais, com altos índices de conversão. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Caso a sua empresa tenha um marketing digital todo estruturado, com
+        tráfego planejado e campanhas permanentes em diversos canais, com altos
+        índices de conversão.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q8">
+      8. <b id="accentText">QUANTO AS ESTRATÉGIAS DE VENDAS ADICIONAIS.</b>
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q8">
-            8. QUANTO AS ESTRATÉGIAS DE VENDAS ADICIONAIS.
-            <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 -Se na sua empresa não existe um Planejamento para isso, nem tão pouco
+        produtos e serviços a serem oferecidos adicionalmente e essas vendas
+        adicionais somente acontecem por iniciativa do vendedor.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 -Se na sua empresa não existe um Planejamento para isso, nem tão pouco produtos e serviços a serem oferecidos adicionalmente e essas vendas adicionais somente acontecem por iniciativa do vendedor. </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q8" value="1" required /></li>
+          <li>2<input type="radio" name="q8" value="2" /></li>
+          <li>3<input type="radio" name="q8" value="3" /></li>
+          <li>4<input type="radio" name="q8" value="4" /></li>
+          <li>5<input type="radio" name="q8" value="5" /></li>
+          <li>6<input type="radio" name="q8" value="6" /></li>
+          <li>7<input type="radio" name="q8" value="7" /></li>
+          <li>8<input type="radio" name="q8" value="8" /></li>
+          <li>9<input type="radio" name="q8" value="9" /></li>
+          <li>10<input type="radio" name="q8" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q8" value="1" required /></li>
-                    <li>2<input type="radio" name="q8" value="2" /></li>
-                    <li>3<input type="radio" name="q8" value="3" /></li>
-                    <li>4<input type="radio" name="q8" value="4" /></li>
-                    <li>5<input type="radio" name="q8" value="5" /></li>
-                    <li>6<input type="radio" name="q8" value="6" /></li>
-                    <li>7<input type="radio" name="q8" value="7" /></li>
-                    <li>8<input type="radio" name="q8" value="8" /></li>
-                    <li>9<input type="radio" name="q8" value="9" /></li>
-                    <li>10<input type="radio" name="q8" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - 
-               
-Caso a sua empresa tenha uma “Esteira de Produtos” toda planejada, com produtos/serviços criados para isso, os seus vendedores são treinados para vendas adicionais e existem indicadores de desempenho para isso. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Caso a sua empresa tenha uma “Esteira de Produtos” toda planejada,
+        com produtos/serviços criados para isso, os seus vendedores são
+        treinados para vendas adicionais e existem indicadores de desempenho
+        para isso.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q9">
+      9.
+      <b id="accentText"
+        >QUANTO AO EXPERIÊNCIA DO SEU CLIENTE COM A SUA EMPRESA.</b
+      >
+      <span id="req">*</span>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q9">
-            9. QUANTO AO EXPERIÊNCIA DO SEU CLIENTE COM A SUA EMPRESA.
-            <span id="req">*</span>
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Caso não exista nenhum cuidado específico quanto a isso, a empresa
+        ainda não mapeou a Jornada do Cliente e o próprio pós vendas não tem
+        estrutura ou funciona de maneira precária.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - 
-                Caso não exista nenhum cuidado específico quanto a isso, a empresa ainda não mapeou a Jornada do Cliente e o próprio pós vendas não tem estrutura ou funciona de maneira precária.
-            </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q9" value="1" required /></li>
+          <li>2<input type="radio" name="q9" value="2" /></li>
+          <li>3<input type="radio" name="q9" value="3" /></li>
+          <li>4<input type="radio" name="q9" value="4" /></li>
+          <li>5<input type="radio" name="q9" value="5" /></li>
+          <li>6<input type="radio" name="q9" value="6" /></li>
+          <li>7<input type="radio" name="q9" value="7" /></li>
+          <li>8<input type="radio" name="q9" value="8" /></li>
+          <li>9<input type="radio" name="q9" value="9" /></li>
+          <li>10<input type="radio" name="q9" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q9" value="1" required /></li>
-                    <li>2<input type="radio" name="q9" value="2" /></li>
-                    <li>3<input type="radio" name="q9" value="3" /></li>
-                    <li>4<input type="radio" name="q9" value="4" /></li>
-                    <li>5<input type="radio" name="q9" value="5" /></li>
-                    <li>6<input type="radio" name="q9" value="6" /></li>
-                    <li>7<input type="radio" name="q9" value="7" /></li>
-                    <li>8<input type="radio" name="q9" value="8" /></li>
-                    <li>9<input type="radio" name="q9" value="9" /></li>
-                    <li>10<input type="radio" name="q9" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - Se a sua empresa tem o mapeamento da Jornada do Cliente e a partir dele está 100% estruturada para que o clientes tenham uma experiência bem sucedida em todos os detalhes, com indicadores de desempenho em todas as etapas. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Se a sua empresa tem o mapeamento da Jornada do Cliente e a partir
+        dele está 100% estruturada para que o clientes tenham uma experiência
+        bem sucedida em todos os detalhes, com indicadores de desempenho em
+        todas as etapas.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
 
 <!-- ############### INICIO PERGUNTA ############### -->
 <div class="container-fluid mb-4">
+  <div class="row mb-1" id="enunciate">
+    <!-- Enunciado da pergunta -->
+    <label for="q10">
+      10. <b id="accentText">QUANTO AO BRANDING DA SUA EMPRESA.</b>
+    </label>
+  </div>
 
-    <div class="row mb-1" id="enunciate">
-        <!-- Enunciado da pergunta -->
-        <label for="q10">
-            10. QUANTO AO BRANDING DA SUA EMPRESA. 
-        </label>
+  <div class="row p-2">
+    <!-- Segunda linha do formulario -->
+
+    <div class="col-sm-12 col-md-4">
+      <!-- Primeiro texto -->
+      <p class="text-center mb-0">
+        1 - Caso não existam cuidados quanto a isso e nem você como empresário
+        veja importância nessas questões.
+      </p>
     </div>
 
-
-    <div class="row p-2">
-        <!-- Segunda linha do formulario -->
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Primeiro texto -->
-            <p class="text-center mb-0"> 1 - 
-                Caso não existam cuidados quanto a isso e nem você como empresário veja importância nessas questões.
-            </p>
+    <div class="col-sm-12 col-md-4">
+      <!-- Likert -->
+      <ul class="likert">
+        <div id="likert-values">
+          <li>1<input type="radio" name="q10" value="1" required /></li>
+          <li>2<input type="radio" name="q10" value="2" /></li>
+          <li>3<input type="radio" name="q10" value="3" /></li>
+          <li>4<input type="radio" name="q10" value="4" /></li>
+          <li>5<input type="radio" name="q10" value="5" /></li>
+          <li>6<input type="radio" name="q10" value="6" /></li>
+          <li>7<input type="radio" name="q10" value="7" /></li>
+          <li>8<input type="radio" name="q10" value="8" /></li>
+          <li>9<input type="radio" name="q10" value="9" /></li>
+          <li>10<input type="radio" name="q10" value="10" /></li>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Likert -->
-            <ul class="likert">
-                <div id="likert-values">
-                    <li>1<input type="radio" name="q10" value="1" required /></li>
-                    <li>2<input type="radio" name="q10" value="2" /></li>
-                    <li>3<input type="radio" name="q10" value="3" /></li>
-                    <li>4<input type="radio" name="q10" value="4" /></li>
-                    <li>5<input type="radio" name="q10" value="5" /></li>
-                    <li>6<input type="radio" name="q10" value="6" /></li>
-                    <li>7<input type="radio" name="q10" value="7" /></li>
-                    <li>8<input type="radio" name="q10" value="8" /></li>
-                    <li>9<input type="radio" name="q10" value="9" /></li>
-                    <li>10<input type="radio" name="q10" value="10" /></li>
-                </div>
-              </ul>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <!-- Segundo Texto -->
-            <p class="text-center mb-0"> 10 - 
-                Se a sua empresa tem um planejamento de branding que encampe toda a comunicação visual e assim gera aos seus clientes uma clara percepção de alinhamento entre tudo o que ele vê, ouve e sente com relação a sua empresa. </p>
-        </div>
-
+      </ul>
     </div>
 
+    <div class="col-sm-12 col-md-4">
+      <!-- Segundo Texto -->
+      <p class="text-center mb-0">
+        10 - Se a sua empresa tem um planejamento de branding que encampe toda a
+        comunicação visual e assim gera aos seus clientes uma clara percepção de
+        alinhamento entre tudo o que ele vê, ouve e sente com relação a sua
+        empresa.
+      </p>
+    </div>
+  </div>
 </div>
 <!-- ############### FIM PERGUNTA ############### -->
